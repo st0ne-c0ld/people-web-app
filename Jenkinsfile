@@ -1,6 +1,6 @@
 def project = 'people-service-web-app'
 def appName = 'people-web-app'
-def tenancy='emeaccoe'
+def tenancy='frkoozn30ayx'
 def ocir='fra.ocir.io'
 def imageTag = "${ocir}/${tenancy}/oracleimc/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
 
